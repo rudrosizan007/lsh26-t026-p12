@@ -55,7 +55,12 @@ standard PostCSS pipeline instead, which has no MPL dependency.
 
 ## Icons, fonts, images
 
-No icon library, icon font, or third-party image asset is used. All icons in
-the UI are hand-written inline SVGs. The one emoji (📷, on the "Scan receipt"
-button) is rendered via the system's built-in emoji font, not a bundled
-asset. No custom web font is loaded — text uses the system font stack.
+No icon library or icon font is used. All icons in the UI are hand-written
+inline SVGs. The one emoji (📷, on the "Scan receipt" button) is rendered via
+the system's built-in emoji font, not a bundled asset. No custom web font is
+loaded — text uses the system font stack.
+
+The Pennywise owl mark (`src/assets/logo.png`, reused as `public/favicon.png`)
+is the app's own brand asset, supplied by the project author for this app —
+not a stock icon or third-party library asset. It's used for the header
+logo, the first-launch splash screen, and the browser favicon.
